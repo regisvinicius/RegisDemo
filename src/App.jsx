@@ -61,7 +61,7 @@ function App() {
 
       <section className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-16 pt-8 md:px-10 lg:px-12">
         <div className="flex items-center justify-between text-sm uppercase tracking-[0.25em] text-stone-600">
-          <span>Regis Vinicius</span>
+          <span>Regis Rodrigues</span>
           <span>Back on Medusa</span>
         </div>
 
@@ -77,13 +77,11 @@ function App() {
                 <span className="text-teal-700">Medusa team</span>.
               </h1>
               <p className="max-w-2xl text-lg leading-8 text-stone-700 sm:text-xl">
-                A small page to say hello again, explain the very serious Owl to
-                Egg to Medusa journey, and make it clear that I am genuinely happy
-                to be building with this team again. I now have 10 years of total
-                software engineering experience, but I was away for only 7 months,
-                so this is less "long-lost return" and more "I missed you and came back."
-                I also returned while doing a postgraduate program focused on AI,
-                which feels like a very on-brand side quest for this season.
+                This page is my way of saying hello again, giving a quick overview of my very serious Owl-to-Egg-to-Medusa journey, and making it clear that I’m genuinely happy to be building with this team again.
+
+                I now have 10 years of experience as a software engineer, but I was away for only 7 months, so this feels less like a dramatic comeback and more like, “I missed you all and came back.” I’m also returning while doing a postgraduate program focused on AI, which feels like a very fitting side quest for this chapter.
+
+                I already know the culture, the pace, and where the best internal jokes tend to live. So this return feels less like onboarding and more like the next season of a very specific workplace sitcom.
               </p>
             </div>
 
@@ -139,14 +137,13 @@ function App() {
                     <p className="text-sm text-stone-400">Past connection</p>
                     <p className="mt-2 text-lg font-medium">
                       I&apos;ve already been part of the story here, so this page
-                      gets to skip the awkward first-date energy.
+                      gets to skip the awkward first-meeting energy.
                     </p>
                   </div>
                   <div className="rounded-[1.5rem] bg-white/5 p-4">
                     <p className="text-sm text-stone-400">What changed</p>
                     <p className="mt-2 text-lg font-medium">
-                      Only 7 months away, more experience overall, same enthusiasm,
-                      and a very believable "I missed you guys" energy.
+                      A little time away, more experience, same enthusiasm.
                     </p>
                   </div>
                 </div>
@@ -269,12 +266,12 @@ function App() {
             />
           </div>
           <p className="mt-3 text-sm italic leading-7 text-stone-500">
-            Our honeymoon trip was in Europe, and this first chapter was in Amsterdam. Also, yes, cycling there only made me like bikes even more.
+            I got married last year, and this is my wife, Thais, and me enjoying a trip in Amsterdam.
           </p>
           <div className="mt-5 max-w-3xl space-y-4 text-base leading-8 text-stone-700">
-            <p>
-              I got married last year, this is me and my Wife Thais enjoying a trip to Amsterdam
-            </p>
+          <p>
+             Our honeymoon was in Europe, and this photo was taken in Amsterdam. Between the canals, the bikes everywhere, and the energy of the city, it was a pretty memorable start to that trip. Also, yes, being there only made me like cycling even more.
+          </p>
           </div>
         </div>
       </section>
