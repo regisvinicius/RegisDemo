@@ -52,6 +52,9 @@ const personalBits = [
 ];
 
 function App() {
+  const portraitSrc = `${import.meta.env.BASE_URL}regis-portrait.jpg`;
+  const honeymoonSrc = `${import.meta.env.BASE_URL}regis.wife.jpg`;
+
   return (
     <main className="min-h-screen overflow-hidden bg-[var(--paper)] text-stone-900">
       <div className="absolute inset-x-0 top-0 -z-10 h-[38rem] bg-[radial-gradient(circle_at_top,_rgba(13,148,136,0.22),_transparent_50%),radial-gradient(circle_at_20%_20%,_rgba(245,158,11,0.18),_transparent_35%),linear-gradient(180deg,_#fffaf0_0%,_#f8f2e7_100%)]" />
@@ -117,7 +120,7 @@ function App() {
 
                 <div className="overflow-hidden rounded-[1.75rem] border border-white/10 bg-white/5">
                   <img
-                    src="/regis-portrait.jpg"
+                    src={portraitSrc}
                     alt="Portrait of Regis Vinicius"
                     className="hero-portrait h-[24rem] w-full object-cover object-center"
                   />
@@ -260,7 +263,7 @@ function App() {
           </h2>
           <div className="mt-6 overflow-hidden rounded-[1.75rem] border border-stone-900/10 bg-stone-100">
             <img
-              src="/regis.wife.jpg"
+              src={honeymoonSrc}
               alt="Regis Vinicius with his wife"
               className="mx-auto h-auto max-h-[42rem] w-full max-w-3xl object-contain"
             />
