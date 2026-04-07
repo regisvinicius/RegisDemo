@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6efe5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--paper);
+  color: #1c1917;
+  font-family: "Instrument Sans", "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-portrait {
+  object-position: center 22%;
+}
