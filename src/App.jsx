@@ -288,9 +288,8 @@ function App() {
                 energy of the city, it was a pretty memorable start to that trip.
               </p>
               <p>
-                It also helps the page feel less like a resume and more like a
-                person with a real life happening outside work, which feels much
-                more honest for a reintroduction.
+                After there we went to a few other countries like Portugal, Germany, Switzerland, and France.
+                it was a great way to celebrate the wedding and also to have some fun adventures together before I came back to work.
               </p>
             </div>
           </div>
